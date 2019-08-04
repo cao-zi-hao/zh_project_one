@@ -1,0 +1,119 @@
+.boss {
+  width: 100%;
+  height: 137px;
+  background: url(images/header.png) no-repeat;
+  background-size: 100%;
+}
+.logo1 {
+  width: 100px;
+  height: 40px;
+  background: url(images/toubu.png) no-repeat;
+  margin-top: 15px;
+}
+.logo2 {
+  width: 100%;
+  height: 60px;
+  text-align: left;
+  line-height: 60px;
+}
+.logo2 img {
+  float: left;
+  padding-top: 10px;
+}
+.col5 {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  text-align: right;
+  line-height: 60px;
+  color: #fff;
+}
+.zh_username {
+  width: 100%;
+  height: 210px;
+  background: url(images/avatarbgc.png) no-repeat;
+  background-size: 100%;
+}
+.el-container {
+  margin-left: 30px;
+}
+.el-header,
+.el-footer {
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+  line-height: 60px;
+  border-radius: 10px;
+}
+.el-main {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #333;
+  height: 500px;
+  border-radius: 10px;
+}
+.zh_div {
+  height: 200px;
+  padding-top: 20px;
+  color: #909090;
+}
+.zh_div a {
+  text-decoration: none;
+}
+.zh_img {
+  float: right;
+  margin-left: 20px;
+}
+.zh_span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+.zh_span1 {
+  padding-left: 20px;
+  border-left: 2px solid #ff8834;
+}
+.zh-select {
+  float: left;
+}
+.zh_boss {
+  height: 40px;
+  background-color: #49c7f1;
+  margin: 0 20px;
+}
+.zh_boss ul {
+  height: 100%;
+}
+.zh_boss ul li {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.zh_boss ul li a {
+  display: block;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+.zh_botton {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  line-height: 500px;
+}
+.zh_username {
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.zh_username .zh_name p {
+  color: #fff;
+  padding-top: 5px;
+}
+.zh_username .zh_name span {
+  color: #f0d6d6;
+  font-size: 12px;
+}

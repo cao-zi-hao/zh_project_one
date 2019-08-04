@@ -1,25 +1,14 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import VueRouter from 'vue-router'
 
-Vue.use(Router)
+// 引入组件
+import home from './components/home/home.vue'
 
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
-  ]
+Vue.use(VueRouter)
+
+// 实例化路由
+const router = new VueRouter({
+  routes: [{ path: '/', redirect: '/home' }, { path: '/home', component: home }]
 })
+// 3. 通过es6 模块化语法 把 router 导出去
+export default router

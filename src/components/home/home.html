@@ -1,0 +1,155 @@
+<div>
+  <!-- 布局 -->
+  <el-row class="boss">
+    <!-- 第一个 -->
+    <el-col :span="4">
+      <div style="width: 10px; height: 10px;"></div>
+    </el-col>
+    <!-- 第二个 -->
+    <el-col :span="4">
+      <!-- logo -->
+      <div class="logo1"></div>
+      <!-- 导航上面用户 -->
+      <div class="zh_username">
+        <img src="./images/avatar.png" alt="" />
+        <div class="zh_name">
+          <p>Adminnnn</p>
+          <span>2021级04级</span>
+        </div>
+      </div>
+      <!-- 导航组件 -->
+      <el-menu
+        default-active="2"
+        class="el-menu-vertical-demo"
+        background-color="#fff"
+        text-color="#fff"
+        active-text-color="#374b64"
+      >
+        <el-menu-item index="2">
+          <i><img src="./images/tab1.png" alt=""/></i>
+
+          <span slot="title">用户中心</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i><img src="./images/tab2.png" alt=""/></i>
+
+          <span slot="title">测评中心</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i><img src="./images/tab3.png" alt=""/></i>
+
+          <span slot="title">课程中心</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i><img src="./images/tab4.png" alt=""/></i>
+
+          <span slot="title">任务中心</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i><img src="./images/tab5.png" alt=""/></i>
+
+          <span slot="title"> 成长档案</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i><img src="./images/tab6.png" alt=""/></i>
+
+          <span slot="title">全球数据库</span>
+        </el-menu-item>
+      </el-menu>
+    </el-col>
+    <el-col :span="12" class="col5">
+      <el-row>
+        <el-col :span="8">
+          <div style="width: 10px; height: 10px;"></div
+        ></el-col>
+        <el-col :span="8">
+          <div style="width: 10px; height: 10px;"></div
+        ></el-col>
+        <el-col :span="8">
+          <div class="logo2">
+            <span>&nbsp;余周周同学欢迎你</span> &nbsp;
+            <img src="./images/图层3.png" alt="" />
+            <i class="el-icon-arrow-down"></i>
+          </div>
+        </el-col>
+      </el-row>
+      <!-- <div class="area">
+        余周周同学欢迎你
+        <img class="img" src="./images/图层3.png" alt />
+        <div class="select">
+          <span>美国</span>
+          <img src="" alt srcset />
+        </div>
+      </div> -->
+      <!-- 布局容器 -->
+      <el-container>
+        <el-header style="height: 300px">
+          <!-- 导航栏组件 -->
+          <template>
+            <el-tabs>
+              <el-tab-pane label="VIA优势测试" name="first"
+                >VIA优势测试</el-tab-pane
+              >
+              <el-tab-pane label="ONet职业评测" name="second">
+                <el-button type="warning" plain>职业兴趣</el-button>
+                <el-button type="warning" plain>职业价值观</el-button>
+                <el-button type="warning" plain>职业推荐</el-button>
+                <br />
+                <div style="line-height: 20px" class="zh_div">
+                  <div class="zh_img">
+                    <img src="./images/图层55.png" alt="" />
+                  </div>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Onet职业测评体系通过20年积累的问卷大数据库算法与数据库中1000多个职业进行匹配，
+                  你将获得你的霍兰德职业代码分数，并基于此获得与您的职业兴趣最相关的职业推荐列表，你也可以按照学历要求，
+                  STEM技能要求等筛选出最适合你的职业...<a
+                    href="#"
+                    style="color:#ff8834 "
+                    >了解更多</a
+                  >
+                </div>
+              </el-tab-pane>
+              <el-tab-pane label="报告管理" name="third">报告管理</el-tab-pane>
+            </el-tabs>
+          </template>
+          <!-- ---------------------------------------------------- -->
+        </el-header>
+        <el-main style="padding: 0;">
+          <!-- 顶部 -->
+          <el-row>
+            <el-col :span="12" class="zh_span">
+              <span class="zh_span1">相关职业推荐</span>
+            </el-col>
+            <el-col :span="6">
+              <el-select placeholder="全部">
+                <el-option></el-option>
+              </el-select>
+            </el-col>
+            <el-col :span="6">
+              <el-select placeholder="全部">
+                <el-option> </el-option>
+              </el-select>
+            </el-col>
+          </el-row>
+
+          <!-- 主体 -->
+          <div class="zh_boss">
+            <ul>
+              <li><a href="#">职业</a></li>
+              <li><a href="#">STEM</a></li>
+              <li><a href="#">教育水平等级</a></li>
+              <li><a href="#">所属行业</a></li>
+              <li><a href="#">分数</a></li>
+            </ul>
+          </div>
+
+          <!--底部图片 -->
+          <div class="zh_botton">
+            <img src="./images/unfinish.png" alt="" />
+          </div>
+        </el-main>
+      </el-container>
+    </el-col>
+    <el-col :span="4"></el-col>
+  </el-row>
+</div>

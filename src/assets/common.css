@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 2000px;
+  background-color: #f5f5f5;
+}
+/*清除小圆点*/
+ul {
+  list-style: none;
+}
+
+/*清除a标签默认的下划线*/
+a {
+  text-decoration: none;
+}
+
+/*表格边框合并*/
+table {
+  border-collapse: collapse;
+}
+
+/*去除input标签点击之后的出现的轮廓线*/
+input {
+  outline-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
